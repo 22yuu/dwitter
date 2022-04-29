@@ -25,7 +25,9 @@ export const config = {
     db: {
         host: required('DB_HOST'),
         user: required('DB_USER'),
+        password:required('DB_PASSWORD'),
         database:required('DB_DATABASE'),
+        dialect:required('DB_TYPE'),
     }
 }
 
